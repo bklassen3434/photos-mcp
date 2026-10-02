@@ -18,7 +18,7 @@ import folder_index
 
 register_heif_opener()
 
-FOLDER = Path(os.environ.get("PHOTOS_FOLDER", "~/Pictures/icloud-columbia")).expanduser().resolve()
+FOLDER = Path(os.environ.get("PHOTOS_FOLDER", "~/Pictures/icloud")).expanduser().resolve()
 
 mcp = MCPServer("icloud-photos-folder")
 

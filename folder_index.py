@@ -3,7 +3,7 @@
 Extracts date/camera/GPS from file metadata, reverse-geocodes GPS offline, and
 labels image content + reads text on-device with Apple's Vision framework.
 
-Usage: uv run python folder_index.py ~/Pictures/icloud-columbia [--no-vision]
+Usage: uv run python folder_index.py ~/Pictures/icloud [--no-vision]
 Re-running is incremental: only new or changed files are processed.
 """
 

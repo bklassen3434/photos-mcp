@@ -11,7 +11,7 @@ sleep 2
 
 UV="$(command -v uv)"
 REPO="$(cd "$(dirname "$0")" && pwd)"
-PHOTOS_FOLDER="${PHOTOS_FOLDER:-$HOME/Pictures/icloud-columbia}"
+PHOTOS_FOLDER="${PHOTOS_FOLDER:-$HOME/Pictures/icloud}"
 
 cp "$CONFIG" "$CONFIG.bak"
 python3 - "$CONFIG" "$UV" "$REPO" "$PHOTOS_FOLDER" <<'EOF'
